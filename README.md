@@ -7,7 +7,7 @@ A. Create New Repository
 
 B. ALWAYS Use Git to clone the new repository to your local machine
 
-
+git clone https://github.com/amrutu75/datafun-02-automation
 
 C. Add .gitignore and requirements.txt
 
