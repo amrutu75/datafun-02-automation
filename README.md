@@ -1,1 +1,39 @@
-# datafun-02-automation
+datafun-02-automation
+Topic CC2.1 Start a Python Automation Project
+
+A. Create New Repository
+Instructions:
+01a-copy-existing-repo-in-github.md
+01b-create-repo-in-github.md
+
+B. ALWAYS Use Git to clone the new repository to your local machine
+Instructions: 02-clone-repo-to-local.md
+git clone https://github.com/amrutu75/datafun-02-automation
+
+C. Add .gitignore and requirements.txt
+Instructions: 03-add-gitignore-and-requirements.md
+Task 1: Create new .gitignore file in repo and copy contents from https://github.com/denisecase/pro-analytics-01/
+Task 2: Create new requirements.txt file in repo and copy contents from https://github.com/denisecase/pro-analytics-01/
+To Update information from GitHub to VS Code
+git pull
+
+D.  Use Git to add, commit, and push your new files to GitHub
+Instructions: 04-git-add-commit-push.md
+git add .
+git commit -m "Add .gitignore"
+git push -u origin main
+git add .
+git commit -m "Add requirements.txt"
+git push -u origin main
+
+E.  ALWAYS Create a Python Virtual Environment 
+Instructions: 05-create-virtual-environment.md
+In VS Code, right click on the project folder, choose open in integrated terminal
+To Create Virtual Environment
+On Windows, Use Powershell:
+py -m venv .venv
+To activate a virtual environment
+
+.\.venv\Scripts\Activate (
+To deactivate a virtual environment
+deactivate
